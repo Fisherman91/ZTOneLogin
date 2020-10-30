@@ -1,0 +1,9 @@
+<resources>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="app_name">助通无感认证</string>
+    <string name="gt_copyright">Powered By ZTTest 2020</string>
+    <string name="gt_copyright_authgate">助通 无感本机认证 产品体验  Copyright © 2020 ZTTest</string>
+</resources>

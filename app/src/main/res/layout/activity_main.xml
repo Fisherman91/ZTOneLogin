@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gtm_draw_background">
+
+    <TextView
+        android:id="@+id/gtm_iv"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:text= "ZTTest"/>
+
+    <LinearLayout
+        android:id="@+id/gtm_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:alpha="0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_onelogin"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/round_white_edge_button"
+            android:text="一键登录"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_onepass"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/round_white_edge_button"
+            android:text="本机认证"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="67dp"
+            android:alpha="0.5"
+            android:gravity="center"
+            android:text="助通无感本机认证 Demo"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:alpha="0.5"
+            android:gravity="center"
+            android:text="@string/gt_copyright"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+    </LinearLayout>
+</RelativeLayout>
