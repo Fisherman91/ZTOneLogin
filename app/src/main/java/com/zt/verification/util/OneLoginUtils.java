@@ -334,6 +334,9 @@ public class OneLoginUtils {
                     // 重新拉起授权页进行一键登录
                     if (errorCode.equals("-20303")) {
                         Log.d(TAG, "用户点击切换账号");
+                        Utils.toastMessage(context, "根据实际需求进行定制开发，具体参考文档");
+
+                        return;
                     }
                     onVerifyEnd();
                     OneLoginHelper.with().dismissAuthActivity();
