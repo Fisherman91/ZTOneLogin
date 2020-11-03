@@ -10,7 +10,7 @@ public class Constants {
      * 服务器配置的verifyUrl接口地址<>需要用到服务SDK</>
      * 当前验证地址仅供演示Demo使用，实际使用请配置为自定义校验的服务端地址
      */
-    public static final String BASE_URL = "http://z.zthysms.com:23004/";
+    public static final String BASE_URL = "http://z.zthysms.com:5001/";
 
 
     /**
@@ -24,14 +24,12 @@ public class Constants {
      * 谨记：APP_ID需绑定相关的包名和包签名(提供这两项信息从后台申请APP_ID)
      */
     public static final String APP_ID_OL = "01187fad7e71fa90845b446819b968a4";
-//    public static final String APP_ID_OL = "e4fcb3086ca25bbe2da08a09d75c70e8";
     /**
      * 后台申请的 OnePass APP_ID
      * 当前APP_ID仅供演示Demo使用，如果修改了应用包名或者签名信息，请使用申请的APP_ID
      * 谨记：APP_ID需绑定相关的包名和包签名(提供这两项信息从后台申请APP_ID)
      */
     public static final String APP_ID_OP = "98b9a4e3ece8ba3c99092344f303c9b5";
-//    public static final String APP_ID_OP = "e18f5f45da5614928f4af0410e886e0a";
 
 
     /**
